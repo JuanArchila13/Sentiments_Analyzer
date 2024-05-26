@@ -1931,7 +1931,8 @@
 "ulcera" { miedo++; tristeza++; enfado++; negativo++; asco++; return SENTIMENT; }
 "ultimo" { tristeza++; anticipacion++; return SENTIMENT; }
 "unico" { sorpresa++; positivo++; return SENTIMENT; }
-
 [a-zA-Z]+    { return WORD; }
+. {/* Ignorar demas */}
+
 %%
 int yywrap() { return 1; }

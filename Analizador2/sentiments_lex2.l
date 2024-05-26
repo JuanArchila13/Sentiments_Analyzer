@@ -2004,7 +2004,8 @@
 "necesitado" { negativo++; return SENTIMENT; }
 "negacion" { enfado++; negativo++; return SENTIMENT; }
 "negada" { tristeza++; negativo++; return SENTIMENT; }
-
 [a-zA-Z]+    { return WORD; }
+. {/* Ignorar demas */}
+
 %%
 int yywrap() { return 1; }

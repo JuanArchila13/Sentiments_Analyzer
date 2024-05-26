@@ -2005,7 +2005,8 @@
 "dolorido" { miedo++; enfado++; tristeza++; negativo++; return SENTIMENT; }
 "doloroso" { miedo++; tristeza++; enfado++; negativo++; asco++; return SENTIMENT; }
 "dom" { sorpresa++; confianza++; alegria++; anticipacion++; positivo++; return SENTIMENT; }
-
 [a-zA-Z]+    { return WORD; }
+. {/* Ignorar demas */}
+
 %%
 int yywrap() { return 1; }
