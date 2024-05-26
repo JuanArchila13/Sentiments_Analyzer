@@ -1,0 +1,11 @@
+Tristeza: 0
+Sorpresa: 0
+Anticipacion: 0
+Miedo: 0
+Enfado: 0
+Positivo: 0
+Confianza: 0
+Asco: 0
+Alegria: 0
+Negativo: 0
+Total de Palabras: 0
