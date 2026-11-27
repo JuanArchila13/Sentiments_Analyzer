@@ -473,40 +473,6 @@ The project demonstrates the integration of compiler construction and natural la
 
 ---
 
-## Current Limitations
-
-The project is an educational implementation of lexical sentiment analysis rather than a production-ready contextual NLP system.
-
-- Classification depends on predefined lexical rules.
-- Unknown expressions may not contribute to sentiment counters.
-- Case differences, accents, and spelling variations may affect recognition.
-- Sarcasm, irony, and contextual ambiguity are not reliably resolved.
-- Negation is limited to explicitly defined lexical patterns.
-- Individual analyzers generate separate reports.
-- Category totals do not represent unique word counts.
-- No validated accuracy, precision, recall, or F1-score is currently documented.
-- The system does not produce calibrated sentiment probabilities.
-
----
-
-## Future Improvements
-
-- [ ] Consolidate lexical rules into a unified analysis engine.
-- [ ] Implement centralized aggregation of analyzer reports.
-- [ ] Add Unicode and Spanish accent normalization.
-- [ ] Implement case-insensitive lexical recognition.
-- [ ] Improve contextual negation handling.
-- [ ] Introduce normalized sentiment scores.
-- [ ] Export structured results in JSON or CSV format.
-- [ ] Add automated unit and integration tests.
-- [ ] Evaluate performance using labeled Spanish-language datasets.
-- [ ] Compare rule-based results against machine learning approaches.
-- [ ] Introduce a REST API for external application integration.
-- [ ] Implement a unified cross-platform build system.
-- [ ] Automate compilation and testing with GitHub Actions.
-
----
-
 ## License
 
 No explicit open-source license is currently included in this repository.
